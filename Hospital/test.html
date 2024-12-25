@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patient</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="logo1-100.png" type="image/x-icon">
+    
+</head>
+<body>
+    <!-- start patient file -->
+     <div class="container">
+        <div class="screen">
+            <div class="screen_contant">
+                <form class="login" action="patient.html">
+                    <div class="login__field">
+                        <i class='login__icon bx bxs-user'></i>
+                        <input type="text" placeholder="user name" class="login__input" name="Name" required>
+                    </div>
+                    <div class="login__field">
+                        <i class='login__icon bx bxs-user-circle'></i>
+                        <input type="text" placeholder="Patient ID" class="login__input" name="ID" required>    
+                    </div>
+                    <div class="login__field">
+                        <select name="Medical Departments"  required>
+                            <option disabled selected>Medical Departments</option>
+                            <option value="Internal Medicine">Internal Medicine</option>
+                            <option value="Pediatrics">Pediatrics</option>
+                            <option value="Obstetrics and Gynecology">Obstetrics and Gynecology</option>
+                            <option value="General Surgery">General Surgery</option>
+                            <option value="Oncology">Oncology</option>
+                            <option value="Ophthalmology">Ophthalmology</option>
+                        </select>
+                    </div>
+                    <button class="button login__submit">
+                        <span class="button__text">Log In Now</span>
+                        <i class='button__icon bx bxs-chevron-right'></i>
+                    </button>
+                </form>
+            </div>
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>		
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>	
+
+        </div>
+     </div>
+</body>
+</html>

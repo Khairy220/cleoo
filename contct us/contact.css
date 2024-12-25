@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    background-image: url('WhatsApp\ Image\ 2024-12-10\ at\ 19.33.46_d1474e73.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul {
+	list-style: none;
+  }
+
+header {
+    /* background-color: #007bff; */
+    color: #1824ca;
+    text-align: center;
+    padding: 15px 0;
+	position: relative;
+}
+
+h1, h2 {
+    margin: 0;
+}
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+  }
+
+  #navbar img {
+	width: 100px;
+	margin-left: 50px;
+  }
+
+  nav ul {
+	display: flex;
+	margin-right: 100px;
+  }
+  
+  nav ul li a {
+	padding: 15px 20px;
+	font-weight: 600;
+  }
+  
+  nav ul li a:hover {
+	border-bottom: 3px solid black;
+  }
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:#fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Hospital Contact Details */
+.hospital-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hospital-details li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 20px 0px ;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-container div {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-container h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-container ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-container ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-container ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-contact a {
+    color: #00b7b0;
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+  }
+
+  .footer-container i {
+    margin-right: 8px;
+    color: #00b7b0;
+  }
+  
+  .footer-container ul li a:hover i {
+    color: #f80d0d;
+  }
+  .social-icons {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  
+  .social-icons h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+     
+  }
+  .social-icons a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ff0000;
+  }
+  header h1 {
+    border: 1px solid #fff;
+    background: #d9eafd;
+    border-radius: 50px;
+    border-radius: 50px;
+    font-size: 4rem;
+    color: #007bff;
+    padding: 20px;
+    margin: 10px 30rem;
+  }

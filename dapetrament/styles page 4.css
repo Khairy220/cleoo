@@ -1,0 +1,101 @@
+body {
+  background-image: url('surgery\ 3.jpg');
+   background-repeat: no-repeat;
+   background-size: cover ;
+   background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  .header .logo {
+    width: 80px; 
+    height: auto;
+    margin-bottom: 10px; 
+    display: block;
+    /* margin-left: auto; */
+    margin-right: auto;
+  }
+  
+   .header h1 {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    text-align: center;
+    /* border: 0px solid #fff; */
+    backdrop-filter: blur(20px);
+    background:  #D9EAFD  ;
+  
+    /* border: none;
+    outline: none; */
+    border-radius: 50px;
+    font-size: 2rem;
+    color:   #007bff ;
+    padding: 20px;
+    margin: 50px 26rem;
+    
+
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #bedfd3;  
+    /* jjjjjjj */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .services ul, .team ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li, .team li {
+    margin-bottom: 5px;
+  }
+  
+  .gallery .images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    /* background-color: #D9EAFD; */
+    color: black;
+    font-size: 0.9em;
+  }
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  

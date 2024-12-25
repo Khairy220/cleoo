@@ -1,0 +1,108 @@
+
+body {
+    background-image: url('WhatsApp\ Image\ 2024-12-10\ at\ 19.33.50_7ec85e29.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f1f1f7;
+    text-align: center;
+    backdrop-filter: blur(3px);
+  }
+ 
+   .header .logo {
+    width: 80px; 
+    height: auto;
+    margin-bottom: 30px; 
+    display: block;
+    margin-left: 10px;
+    margin-right: auto; 
+  }
+  
+  .header h4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: 0px solid #fff; */
+    backdrop-filter: blur(20px);
+    background:  #D9EAFD;  ;
+  
+    /* border: none;
+    outline: none; */
+    border-radius: 50px;
+    font-size: 3rem;
+    color:   #007bff ;
+    padding: 20px;
+    margin: 50px 30rem;
+    
+
+  }
+  
+  
+ 
+  .departments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 90px;
+    padding: 90px;
+  }
+  
+  .department {
+    background: #bce7f8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* xxxxxx */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .department:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 30px 90px rgba(0, 0, 0, 0.2);
+  }
+  
+  .department img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+  }
+  
+  .department h2 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  .department a{
+    text-decoration: none;
+
+  }
+  
+
+  .footer {
+    /* background-color: #0669eb; */
+    color: #281be2;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+

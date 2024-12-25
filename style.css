@@ -1,0 +1,407 @@
+body{
+	font-family: 'century Gothic';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+  }
+
+h1{
+	padding: 8px;
+	border-radius:8px;
+	margin: 0;
+	font-size: 64px;
+	font-family: 'century Gothic';
+	color: #0d0136;
+}
+
+p{
+	line-height: 1.5;
+}
+
+main{
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+ul {
+	list-style: none;
+  }
+  
+#banner{
+	height:100vh;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+} 
+
+ #banner h3 {
+	border-radius: 8px;
+	padding: 0 24px;
+	font-size: 24px;
+	color: #0d0136;
+
+}
+
+header {
+	height: 100vh;
+	background: url("doctors.png") center center/cover no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+	position: relative;
+  }
+
+  #navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+  }
+
+  #navbar img {
+	width: 100px;
+	margin-left: 50px;
+  }
+
+  nav ul {
+	display: flex;
+	margin-right: 100px;
+  }
+  
+  nav ul li a {
+	padding: 15px 20px;
+	font-weight: 600;
+  }
+  
+  nav ul li a:hover {
+	border-bottom: 3px solid black;
+  }
+
+.section-heading{
+	font-size: 32px;
+	font-family: 'century Gothic';
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	transition: all 0.4s ;
+	display: inline-block;
+	padding: 4px 32px;
+
+}
+
+.section-heading:hover
+{
+	padding: 4px 48px;
+	background: red;
+}
+
+
+.card-image{
+	transition: 0.4s;
+}
+
+.card-image:hover
+{
+box-shadow: 0 10px 6px -6px #777;
+}
+
+.card .card-description{
+	padding: 0 8px;
+}
+
+.card-meta-blogspot{
+	color: #333;
+	font-size: 14px;
+	padding: 16px;
+	font-family: 'century Gothic';
+}
+
+.card-meta-blogspot a{
+	color: #333;
+}
+
+.btn-readmore{
+	padding: 8px 24px;
+	border: 3px solid black;
+	transition:0.4px;
+	display: inline-block;
+	margin-bottom: 24px;
+	margin-left: 24px;
+	font-weight: bold;
+	cursor: pointer;
+	background: white;
+}
+.btn-readmore:hover{
+	background: red;
+	text-decoration: none;
+	padding: 8px 64px 8px 24px;
+	color: white;
+}
+
+footer{
+	background: black;
+	padding: 8px;
+	color: #eee;
+	display: flex;
+}
+footer a{
+	color: white;
+}
+
+
+
+
+
+
+footer #right-footer{
+	flex:2;
+	padding: 8px;
+	text-align:center;
+}
+
+
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-youtube,
+footer #social-media-footer a .fa-github{
+	color: white;
+	transition: 0.4s;
+}
+
+footer #social-media-footer ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	padding: 0;
+}
+
+footer #social-media-footer ul li{
+	font-size: 24px;
+	padding: 16px;
+	transition: 0.4s;
+}
+
+footer #social-media-footer ul li:hover a .fa-youtube{
+	color: red;
+}
+
+footer #social-media-footer ul li:hover a .fa-facebook{
+	color: #3b5998;
+}
+
+footer #social-media-footer ul li:hover a .fa-facebook{
+	color: pink;
+}
+
+.page-heading{
+	font-size: 32px;
+	font-family: 'century Gothic';
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	transition: all 0.4s;
+	display: inline-block;
+	padding: 4px 32px;
+	margin-top: 120px;
+}
+
+.page-heading:hover{
+	padding: 4px 48px;
+	background: red;
+}
+
+.card-meta{
+	color: #333;
+	font-size: 14px;
+	padding-left: 8px;
+	font-family: 'century Gothic';
+}
+
+.card-meta a{
+	color: #333;
+}
+
+
+
+#post-container{
+
+  display: flex;
+
+}
+
+
+
+#blogpost{
+  display: flex;
+  flex-direction:column;
+  width:70%;
+  border-left:1px solid #999;
+}
+
+
+#blogpost .card{
+  width:100%;
+}
+
+#blogpost .card-image:hover{
+  box-shadow: none;
+}
+
+
+#sidebar{
+  background:#333;
+  flex:1;
+  padding: 8px 16px;
+  color:white;
+  box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
+}
+
+
+#comments-section{
+  border-top: 2px solid #eee;
+  padding:8px;
+
+}
+footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 30px 20px ;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  .footer-contact{
+	flex: 1 1 30%;
+    margin: 10px;
+  }
+  .footer-contact h4{
+	margin-bottom: 10px;
+
+  }
+  
+  .footer-contact a {
+    color: #00b7b0;
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-container i {
+    margin-right: 8px;
+    color: #00b7b0;
+  }
+  
+  .footer-container ul li a:hover i {
+    color: #f80d0d;
+  }
+  .social-icons {
+    flex: 1 1 30%;
+    margin: 10px;
+  }
+  
+  .social-icons h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+     
+  }
+  .social-icons a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ff0000;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+	font-size: 12px;
+  }
+
+@media(max-width: 600px){
+	maina{
+		width: 100%;
+	}
+}
+h1{
+	font-size: 48px;
+}
+
+h3{
+	font-size: 48px;
+}
+
+#banner h3{
+	font-size: 20px;
+}
+
+
+.card{
+	text-align: center;
+}
+
+#logo-img{
+	padding:0;
+}
+
+
+@media(min-width: 720px){
+	main{
+		width: 95%
+	}
+	card{
+width: 45%
+	}
+	.card .card-image img{
+		width: 50%;
+	}
+}
+
+@media(min-width:1200px){
+	main{
+		width: 85%;
+	}
+}
+
